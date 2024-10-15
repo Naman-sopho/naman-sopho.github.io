@@ -1,8 +1,7 @@
 ---
 layout: page
-title: About
-css: [/css/home.css]
-show-avatar: false
+title: About me
+# subtitle: Why you'd want to go on a date with me
 ---
 
 
@@ -12,3 +11,10 @@ Coding has been more than just a hobby for a long time. I have been fond of prog
 
 I strongly believe in the FOSS philosophy and have been activel participating in various Open Source Projects. I am active contributor to the Open Source voxel based game [Terasology](https://terasology.org) developed under the org [
 MovingBlocks](https://github.com/MovingBlocks). I completed my Google Summer Code 2018 [project](/2018-08-07-GSoCWrapUp/) with Terasology and will also be acting as a mentor with org for [Google Code-In 2018](https://http://codein.withgoogle.com/).
+
+### Projects:
+#### Judging a book by its cover
+  - Accepted for publication at IEEE Region10 Symposium.
+  - Developed and compared model performances for the classification of books into genres based on their cover images.
+  - Compiled and deployed the models on Intel Neural Compute Stick.
+  - IEEE Xplore : [Link to IEEE Xplore document](https://ieeexplore.ieee.org/document/8971238)

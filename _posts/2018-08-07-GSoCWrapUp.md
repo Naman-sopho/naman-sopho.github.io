@@ -2,7 +2,7 @@
 layout: post
 title: It is just a beginning
 subtitle: GSoC Wrap Up
-image: /img/gsoc.png
+thumbnail-img: /assets/img/gsoc.png
 js: [/js/github-buttons.js, /js/required.js]
 ext-js: https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js
 css: [/css/required.css, /css/github-buttons.css]
@@ -15,7 +15,7 @@ This post consists of links to all PRs opened and the work done during the summe
 
 <div align="center">
 <figure>
-<img src="/img/contri.jpg">
+<img src="/assets/img/contri.jpg">
 </figure>
 </div>
 
