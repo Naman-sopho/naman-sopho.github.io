@@ -37,7 +37,7 @@ body {
   position: relative;
   background-color: var(--page-col);
   {% if site.page-img %}
-  background-image: url({{ site.page-img | relative_url }});
+  background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url({{ site.page-img | relative_url }});
   background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
@@ -413,9 +413,9 @@ img {
 /* --- Footer --- */
 
 footer {
-  padding: 1.875rem 0;
+  padding: 1rem 0;
   border-top: 1px var(--footer-col) solid;
-  margin-top: 3.125rem;
+  margin-top: 1.125rem;
   font-size: 0.875rem;
   background-color: var(--footer-col);
   {% if site.footer-img %}
@@ -560,6 +560,9 @@ footer .footer-custom-content {
 .post-preview .post-image img {
   max-height: 100%;
   max-width: 100%;
+  min-height: 150px;
+  min-width: 150px;
+  border-radius: 100px;
 }
 .post-preview .post-image-short {
   margin-top: -2.1875rem;
@@ -1153,8 +1156,8 @@ button {
   font-family: "Open Sans", Helvetica;
   border-radius: 8px;
   border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
-  background: #EDF5E1;
-  color: #05386B;
+  background: var(--text-col);
+  color: #fff;
   box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
   
   -webkit-transform: translateZ(0);
